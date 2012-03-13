@@ -1,0 +1,26 @@
+{
+  "author": "Russell Duhon <fugu13@gmail.com>",
+  "name": "allworlds",
+  "description": "An augmented/alternate reality engine.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fugu13/All-Worlds-Engine.git"
+  },
+  "main": "lib/orbit",
+  "engines": {
+    "node": "~0.6.11"
+  },
+  "dependencies": {
+    "JSONStream": "~0.2.0",
+    "event-stream": "~0.7.0",
+    "underscore": "latest"
+  },
+  "devDependencies": {
+    "vows": "latest"
+  },
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "vows test/test.js"
+  }
+}
